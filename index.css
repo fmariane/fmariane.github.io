@@ -28,14 +28,33 @@ p {
 	padding: 5px;
 }
 
-#section {
+#section_Sobre {
 	width: 350px;
 	float: left;
 	padding: 10px;
 }
 
+#section_Blog {
+	width: 350px;
+	float: left;
+	padding: 10px;
+}
+
+#section_Contato {
+	position: absolute;
+	visibility: visible;
+	left: 20px;
+	top: 450px; 
+	height: 100px;
+	width: 350px;
+	z-index: 200; 
+}
+
 #footer {
 	background-color: #333;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	color: white;
 	clear: both;
 	text-align: center;
