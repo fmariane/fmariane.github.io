@@ -3,13 +3,16 @@ body {
 }
 
 h1 {
-    color: orange;
+    color: #06D8FF;
     text-align: center;
+    font-family: "Helvetica"
 }
-
+h3 {
+  font-family: "Helvetica"
+}
 p {
-    font-family: "Times New Roman";
-    font-size: 19px;
+    font-family: "Helvetica";
+    font-size: 17px;
 }
 
 #header {
